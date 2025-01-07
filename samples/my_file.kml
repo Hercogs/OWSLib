@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document name="DOC">
+        <Schema name="vmdpubliccompartments_1" id="vmdpubliccompartments_1">
+            <SimpleField type="int" name="ogc_fid"/>
+            <SimpleField type="string" name="kadastrs"/>
+            <SimpleField type="short" name="kvart"/>
+            <SimpleField type="short" name="nog"/>
+            <SimpleField type="short" name="anog"/>
+            <SimpleField type="float" name="nog_plat"/>
+            <SimpleField type="float" name="expl_mezs"/>
+            <SimpleField type="float" name="expl_celi"/>
+            <SimpleField type="float" name="expl_gravj"/>
+            <SimpleField type="short" name="zkat"/>
+            <SimpleField type="short" name="mt"/>
+            <SimpleField type="short" name="izc"/>
+            <SimpleField type="short" name="p_darbg"/>
+            <SimpleField type="short" name="p_darbv"/>
+            <SimpleField type="short" name="p_cirg"/>
+            <SimpleField type="short" name="p_cirp"/>
+            <SimpleField type="int" name="atj_gads"/>
+            <SimpleField type="short" name="plant_audz"/>
+            <SimpleField type="int" name="s10"/>
+            <SimpleField type="short" name="a10"/>
+            <SimpleField type="float" name="h10"/>
+            <SimpleField type="float" name="d10"/>
+            <SimpleField type="float" name="g10"/>
+            <SimpleField type="int" name="n10"/>
+            <SimpleField type="short" name="bv10"/>
+            <SimpleField type="short" name="ba10"/>
+            <SimpleField type="int" name="s11"/>
+            <SimpleField type="short" name="a11"/>
+            <SimpleField type="float" name="h11"/>
+            <SimpleField type="float" name="d11"/>
+            <SimpleField type="float" name="g11"/>
+            <SimpleField type="int" name="n11"/>
+            <SimpleField type="short" name="bv11"/>
+            <SimpleField type="short" name="ba11"/>
+            <SimpleField type="int" name="s12"/>
+            <SimpleField type="short" name="a12"/>
+            <SimpleField type="float" name="h12"/>
+            <SimpleField type="float" name="d12"/>
+            <SimpleField type="float" name="g12"/>
+            <SimpleField type="int" name="n12"/>
+            <SimpleField type="short" name="bv12"/>
+            <SimpleField type="short" name="ba12"/>
+            <SimpleField type="int" name="s13"/>
+            <SimpleField type="short" name="a13"/>
+            <SimpleField type="float" name="h13"/>
+            <SimpleField type="float" name="d13"/>
+            <SimpleField type="float" name="g13"/>
+            <SimpleField type="int" name="n13"/>
+            <SimpleField type="short" name="bv13"/>
+            <SimpleField type="short" name="ba13"/>
+            <SimpleField type="int" name="s14"/>
+            <SimpleField type="short" name="a14"/>
+            <SimpleField type="float" name="h14"/>
+            <SimpleField type="float" name="d14"/>
+            <SimpleField type="float" name="g14"/>
+            <SimpleField type="int" name="n14"/>
+            <SimpleField type="short" name="bv14"/>
+            <SimpleField type="short" name="ba14"/>
+            <SimpleField type="short" name="gtf"/>
+            <SimpleField type="short" name="jaatjauno"/>
+            <SimpleField type="short" name="saimn_d_ie"/>
+            <SimpleField type="short" name="jakopj"/>
+            <SimpleField type="string" name="color"/>
+        </Schema>
+        <Folder>
+            <name>vmdpubliccompartments111</name>
+            <Placemark id="vmdpubliccompartments.2926252">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#vmdpubliccompartments_1">
+                        <SimpleData name="ogc_fid">2926252</SimpleData>
+                        <SimpleData name="kadastrs">74940010044</SimpleData>
+                        <SimpleData name="kvart">9</SimpleData>
+                        <SimpleData name="nog">4</SimpleData>
+                        <SimpleData name="anog">0</SimpleData>
+                        <SimpleData name="nog_plat">1.24</SimpleData>
+                        <SimpleData name="expl_mezs">1.24</SimpleData>
+                        <SimpleData name="expl_celi">0.0</SimpleData>
+                        <SimpleData name="expl_gravj">0.0</SimpleData>
+                        <SimpleData name="zkat">10</SimpleData>
+                        <SimpleData name="mt">4</SimpleData>
+                        <SimpleData name="izc">2</SimpleData>
+                        <SimpleData name="p_darbg">2023</SimpleData>
+                        <SimpleData name="p_darbv">4</SimpleData>
+                        <SimpleData name="p_cirg">2020</SimpleData>
+                        <SimpleData name="p_cirp">11</SimpleData>
+                        <SimpleData name="atj_gads">2023</SimpleData>
+                        <SimpleData name="plant_audz">0</SimpleData>
+                        <SimpleData name="s10">4</SimpleData>
+                        <SimpleData name="a10">2</SimpleData>
+                        <SimpleData name="h10">1.0</SimpleData>
+                        <SimpleData name="d10">2.0</SimpleData>
+                        <SimpleData name="g10">0.0</SimpleData>
+                        <SimpleData name="n10">2000</SimpleData>
+                        <SimpleData name="bv10">0</SimpleData>
+                        <SimpleData name="ba10">0</SimpleData>
+                        <SimpleData name="s11">0</SimpleData>
+                        <SimpleData name="a11">0</SimpleData>
+                        <SimpleData name="h11">0.0</SimpleData>
+                        <SimpleData name="d11">0.0</SimpleData>
+                        <SimpleData name="g11">0.0</SimpleData>
+                        <SimpleData name="n11">0</SimpleData>
+                        <SimpleData name="bv11">0</SimpleData>
+                        <SimpleData name="ba11">0</SimpleData>
+                        <SimpleData name="s12">0</SimpleData>
+                        <SimpleData name="a12">0</SimpleData>
+                        <SimpleData name="h12">0.0</SimpleData>
+                        <SimpleData name="d12">0.0</SimpleData>
+                        <SimpleData name="g12">0.0</SimpleData>
+                        <SimpleData name="n12">0</SimpleData>
+                        <SimpleData name="bv12">0</SimpleData>
+                        <SimpleData name="ba12">0</SimpleData>
+                        <SimpleData name="s13">0</SimpleData>
+                        <SimpleData name="a13">0</SimpleData>
+                        <SimpleData name="h13">0.0</SimpleData>
+                        <SimpleData name="d13">0.0</SimpleData>
+                        <SimpleData name="g13">0.0</SimpleData>
+                        <SimpleData name="n13">0</SimpleData>
+                        <SimpleData name="bv13">0</SimpleData>
+                        <SimpleData name="ba13">0</SimpleData>
+                        <SimpleData name="s14">0</SimpleData>
+                        <SimpleData name="a14">0</SimpleData>
+                        <SimpleData name="h14">0.0</SimpleData>
+                        <SimpleData name="d14">0.0</SimpleData>
+                        <SimpleData name="g14">0.0</SimpleData>
+                        <SimpleData name="n14">0</SimpleData>
+                        <SimpleData name="bv14">0</SimpleData>
+                        <SimpleData name="ba14">0</SimpleData>
+                        <SimpleData name="gtf">2020</SimpleData>
+                        <SimpleData name="jaatjauno">0</SimpleData>
+                        <SimpleData name="saimn_d_ie">6</SimpleData>
+                        <SimpleData name="jakopj">2028</SimpleData>
+                        <SimpleData name="color">10 4-1</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>24.470576947146895,56.88864283096497 24.470049213319378,56.888740925487646 24.469277424201913,56.88922446681526 24.46857625710569,56.88936700211521 24.46810309970383,56.88963459610367 24.46895702662618,56.89006702650445 24.469980290474616,56.88968188429931 24.47064061534833,56.88943955949065 24.47074658636389,56.88932142803521 24.47078479899546,56.88925119270499 24.47078909461733,56.88896366889941 24.470761287598084,56.88885895101112 24.470668317540824,56.888723843899 24.470576947146895,56.88864283096497</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
