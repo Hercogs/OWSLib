@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "custom_debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/app",
+            "args": [],
+            "environment": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/build",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+
+        {
+            "name": "custom_run",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/app",
+            "args": [],
+            "environment": [],
+            "stopAtEntry": false,  // Do not stop at entry
+            "cwd": "${workspaceFolder}/build",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Disable all breakpoints",
+                    "text": "-exec set breakpoint pending off",
+                    "ignoreFailures": true
+                }
+            ],
+            "internalConsoleOptions": "neverOpen"  // Ensure no internal console is opened
+        }
+
+    ]
+}
