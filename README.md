@@ -1,5 +1,5 @@
 # OWS library
-<hr>
+
 ### Description
 This is C++ package which allows to make web feature service (WFS) requests.
 ## Setup
@@ -11,6 +11,15 @@ cd OWSLib
 mkdir build; cd build
 cmake ..; make
 ```
+
+### 2. Dependecies
+
+This code depends on:
+    - libkml
+    - libcurl
+
+Example, how to build anything using this library: `g++ main.cpp  -L build/lib -lOWSLib `pkg-config --cflags --libs libkml` -lcurl`
+
 ## Usage
 To execute compiled object, run: `./app`
 

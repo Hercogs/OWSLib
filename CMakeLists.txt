@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 project(OWSLib)
 
 # Set flag if want to use as standlone application
-add_definitions(-DOWSLIB_STANDALONE)
+# add_definitions(-DOWSLIB_STANDALONE)
 
 # Include the cmake directory
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
@@ -20,6 +20,10 @@ else()
 endif()
 
 include_directories(${CURL_INCLUDE_DIRS} ${KML_INCLUDE_DIRS})
+
+# Define custom outputs directories
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 set(PWD_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 message(PROJECT_SOURCE_DIR=${PWD_PATH})
@@ -37,6 +41,15 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
 
 file(GLOB_RECURSE MY_SRC ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
-add_executable(app ${PWD_PATH}/src/main.cpp ${MY_SRC})
-target_link_libraries(app ${CURL_LIBRARIES} ${KML_LIBRARIES})
+if(DOWSLIB_STANDALONE)
+    add_executable(app ${PWD_PATH}/src/main.cpp ${MY_SRC})
+    target_link_libraries(app ${CURL_LIBRARIES} ${KML_LIBRARIES})
+endif()
+
+# Add the library target
+# add_library(OWSLib SHARED ${MY_SRC})
+add_library(OWSLib STATIC ${MY_SRC})
+
+# Link A with curl as a public dependency
+target_link_libraries(OWSLib PUBLIC CURL::libcurl)
 
