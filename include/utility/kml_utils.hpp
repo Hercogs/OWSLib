@@ -19,6 +19,8 @@ class KMLUtils
          */
         KMLUtils(const std::string& kml_file); // pass either path to *kml file or content
 
+        KMLUtils() = default;
+
         /* Setters */
 
         /* Getters */
